@@ -9,10 +9,8 @@ image = image.resize((100, 100))  # 调整图片大小以减少计算量
 
 # 获取图片的像素值
 pixel_values = np.array(image)
-
 # 创建一个图形和一个坐标轴
 fig, ax = plt.subplots()
-
 # 设置点的颜色和大小
 scatter_kwargs = {'c': 'red', 'alpha': 0.5}
 
